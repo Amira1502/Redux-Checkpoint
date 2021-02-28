@@ -1,0 +1,32 @@
+.title2{
+    text-decoration: overline;
+    text-align: center;
+    color:rgb(32, 187, 192)
+}
+.listTask{
+    text-align: justify;
+    color:rgb(82, 79, 80);
+    font-size: 50px;
+    font: 20px Arial, sans-serif;
+    
+}
+ li {
+     display: flex;
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  ul {
+    padding: 0;
+   
+  }
+
+  .filterButton {
+    background-color: #dbe4e4; 
+    border: none;
+    padding: 15px 250px;
+   
+  }
