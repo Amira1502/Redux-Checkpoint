@@ -27,7 +27,7 @@ const taskReducer = (state=initialState, action) => {
                     return {
                       ...state,
                       listTasks: state.listTasks.map((el) =>
-                      el.id == action.payload? { ...el, task: action.payload.newTask } : el
+                      el.id === action.payload.id ? { ...el, task: action.payload.newTask } : el
                       ),
                     };
                   default:
